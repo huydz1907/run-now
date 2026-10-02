@@ -27,6 +27,12 @@ app.use('/media', express.static(publicDir));
 app.use(express.static(path.join(__dirname,'dist')));
 const server = http.createServer(app);
 const io = new SocketServer(server, {cors:{origin:'*'}});
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'HANU Run Tracker'
+  });
+});
 
 function uid(){return Math.random().toString(36).slice(2)+Date.now().toString(36)}
 function hav(a,b){const R=6371000,p=Math.PI/180,dLat=(b.lat-a.lat)*p,dLon=(b.lng-a.lng)*p,x=Math.sin(dLat/2)**2+Math.cos(a.lat*p)*Math.cos(b.lat*p)*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.sqrt(x));}
