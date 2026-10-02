@@ -1,0 +1,55 @@
+{
+  "users": {
+    "8sb82dth03n": {
+      "id": "8sb82dth03n",
+      "nickname": "Huy",
+      "createdAt": "2026-10-01T17:52:08.277Z"
+    },
+    "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd": {
+      "id": "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd",
+      "nickname": "Huy",
+      "createdAt": "2026-10-01T17:52:08.443Z"
+    }
+  },
+  "friends": {},
+  "friendRequests": [],
+  "runs": [
+    {
+      "id": "q48rlw8prbfmupu0o4j",
+      "userId": "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd",
+      "nickname": "Huy",
+      "distance": 0,
+      "time": 4,
+      "competition": false,
+      "competitionResult": null,
+      "route": [],
+      "date": "2026-10-01T17:52:34.339Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "x1goyqt9h0fmupu0w3o",
+      "userId": "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd",
+      "nickname": "Huy",
+      "text": "hi",
+      "image": "/media/591wh22mkfmmupu0w3n.jpg",
+      "distance": 0,
+      "pace": "--:--",
+      "likes": [
+        "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd"
+      ],
+      "date": "2026-10-01T17:52:44.676Z"
+    }
+  ],
+  "comments": {
+    "x1goyqt9h0fmupu0w3o": [
+      {
+        "id": "zearbi3ypmmupu133z",
+        "userId": "7f4d099d-2db4-4dc4-b4dc-4e30a5f48bdd",
+        "nickname": "Huy",
+        "text": "haha",
+        "date": "2026-10-01T17:52:53.759Z"
+      }
+    ]
+  }
+}
