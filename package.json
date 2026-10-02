@@ -9,19 +9,17 @@
     "start": "node server.js",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.117.2",
-    "express": "latest",
-    "leaflet": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-leaflet": "latest",
-    "socket.io": "latest",
-    "socket.io-client": "latest"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "latest",
-    "concurrently": "latest",
-    "vite": "latest"
-  }
+"dependencies": {
+  "@supabase/supabase-js": "^2.117.2",
+  "@vitejs/plugin-react": "latest",
+  "concurrently": "latest",
+  "express": "latest",
+  "leaflet": "latest",
+  "react": "latest",
+  "react-dom": "latest",
+  "react-leaflet": "latest",
+  "socket.io": "latest",
+  "socket.io-client": "latest",
+  "vite": "latest"
+}
 }
